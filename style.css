@@ -36,12 +36,12 @@ a {
 
 .bg-1 {
     background-color: #dbc8e3; /* White */
-    color: #dbc8e3;
+    color: white;
 }
 
 .bg-2 {
     background-color: #b539f1; /* Blue */
-    color: #b539f1;
+    color: white ;
 }
 
 .card {
@@ -55,12 +55,12 @@ a {
 
 .bg-3 {
     background-color: #4e265a ; /* Black */
-    color: #4e265a;
+    color: white ;
 }
 
 .bg-4 {
     background-color: #89609e; /* Dark Gray */
-    color: #89609e;
+    color: white ;
 }
 
 .container-fluid {
