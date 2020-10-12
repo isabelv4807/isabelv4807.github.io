@@ -5,7 +5,7 @@ html, body {
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color:#dfc0eb;
+    color: #f5f6f7;
 }
 
 p {
@@ -40,7 +40,7 @@ a {
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-color: #dfc0eb /* Blue */
     color: #ffffff;
 }
 
