@@ -35,17 +35,17 @@ a {
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
+    background-color: #eddbf4; /* White */
     color: #eddbf4;
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-color: #b539f1; /* Blue */
     color: #b539f1;
 }
 
 .card {
-    color: black;
+    color: purple;
     text-align: left;
 }
 
@@ -54,12 +54,12 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
+    background-color: #4e265a ; /* Black */
     color: #4e265a;
 }
 
 .bg-4 {
-    background-color: #343a40; /* Dark Gray */
+    background-color: #89609e; /* Dark Gray */
     color: #89609e;
 }
 
