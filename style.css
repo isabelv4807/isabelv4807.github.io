@@ -13,7 +13,7 @@ p {
 }
 
 a {
-    color:  #2e72a1 ;
+    color:  white ;
 }
 
 #logo, .project-img {
@@ -78,6 +78,4 @@ a {
     letter-spacing: 5px;
 }
 
-.navbar-nav li a:hover {
-    color: #2e72a1 !important;
-}
+
