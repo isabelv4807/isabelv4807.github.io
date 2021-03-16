@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+   <div class="container-fluid bg-1">
+        <div class="container">
+            <h1 class="margin text-center">Critical Reading NYC SAT scores filter</h1>
+            <p> For this project we worked with  data from NYC open data base API and looked through them thinking of the possible ideas for how to use them.
+              I chose to work with the 2012 SAT Results and wanted to create a code that filtered through all of the sections giving the user a list of schools 
+              based on the section they wanted and the scores they wanted. My initial idea seems easy to me, but with the time i had i soon realized it would better if
+              I focoused on something more specific while still keeping the same concept. I decided I wanted to filter though the Critical reading section to give the user
+              a list of schools with the score they input. I felt like having a smaller target would be easier to start off with then in the future I could expand if I wished to.
+          Initially some of the challenges I faced were getting the data to show up on the screen. I was unsure how to work with the data since it didn't have a name, but I figured out that 
+          I could refer to it as data and use a loop to filter through the different schools. Once I figured out how to get the data on the screen creating the loop was easier 
+          and I made it so that if the userinput equaled  the critical reading score in the data it would document.log that schools name. When trying to work with a bigger target
+          I encountered many errors and decided a smaller target would be best to prefect the code then build from there which was another one of my struggles.
+          My code wasn't focoused on a certain section and I was trying to do to much causing errors all around my code.</p>
+            <p>For my next steps I feel like the only way to go from here is adding a loop to filter through the math and writing scores. This was my initial idea so it would be nice to build up to having it play out.
+          Once they are worked out I would also like to see if i could loop it so that the user can be asked for scores in other sections and give them those options all together. Maybe 
+          I could even make it so that they can input a rage of scores and I can provide their "perfect match" of schools. I also want to add some CSS and organize the information into some sort of accordian. </p>
+            <a href="#">Link about the project</a><br>
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <a href="https://isabelv4807.github.io/jsproject-SAT-Critical-Reading-score-filter/">Preview of the project</a> <br>
+            <!--EXAMPLE OF GITHUB LINK-->
+            <a href="https://github.com/isabelv4807/jsproject--filtering-though-SAT-Scores-Critical-READING-">Github link with project code</a> <br>
+
+            <img src="../img/Example.png" class="img-fluid project-img">
+           <img src="../img/SidebySide.png" class="img-fluid project-img">
+
+
+            <div class="row">
+
+             
+                <div class="col-sm-6">
+                
+                </div>
+                <div class="col-sm-6">
+                 
+                </div>
+              
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
